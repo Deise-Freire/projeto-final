@@ -52,6 +52,74 @@ INSTALLED_APPS = [
 
 ]
 
+## Criando perfis no banco
+
+python manage.py shell 
+
+>>> from perfis.models import Perfil
+
+>>> perfil = Perfil(nome='Oswaldo', email='oswaldo@oswaldo.com', telefone='n/a', nome_empresa='IFB')
+
+>>> perfil.save()
+
+>>> perfil_encontrado = Perfil.objects.get(id=1)
+
+>>> perfil_encontrado.nome = 'Oswaldo Alterado'
+
+>>> perfil_encontrado.save()
+
+>>> perfil_encontrado = Perfil.objects.get(id=1)
+
+>>> perfil_encontrado.nome
+
+>>> perfil = Perfil.objects.create(nome='Steve', email='steve@minecraft.com', telefone='n/a', nome_empresa='IFB')
+
+>>>
+
+## Buscando perfis
+
+python manage.py shell
+
+>>> from perfis.models import Perfil
+
+>>> p = Perfil.objects.get(id=1) #Perfil 1 deve existir
+
+>>> p.nome
+
+>>> p = Perfil.objects.get(nome='Steve') #Steve deve existir
+
+>>> p.id
+
+## Filtrando perfis
+
+python manage.py shell
+
+>>> from perfis.models import Perfil
+
+>>> perfis = Perfil.objects.filter(email__contains='s')
+
+>>> perfis = Perfil.objects.filter(email__contains='s')
+
+>>> perfis = Perfil.objects.filter(email__icontains='s')
+
+>>> perfis = Perfil.objects.filter(email__startswith='s')
+
+
+## Selecionando perfis de uma lista
+
+python manage.py shell
+
+>>> from perfis.models import Perfil
+
+>>> perfil1 = Perfil(nome='Fábio Henrique', email='fabio.oliveira@ifb.edu.br', telefone='n/a', nome_empresa='IFB')
+
+>>> perfil1.save()
+
+>>> perfil2 = Perfil(nome='Tiago Henrique', email='tiago.segato@ifb.edu.br', telefone='n/a', nome_empresa='IFB')
+
+>>> perfil2.save()
+
+
 # Páginas
 
 ## 1. perfis/
