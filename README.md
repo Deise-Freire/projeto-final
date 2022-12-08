@@ -180,10 +180,17 @@ password
 
 pode_convidar
 
+Contato
+
 
 # Botões
 
 Convidar
+
+Aceitar
+
+Logout
+
 
 # Parte 1 (back-end API)
 
