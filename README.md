@@ -4,32 +4,48 @@ projeto-final-2022-2-g3-kd created by GitHub Classroom
 # Comandos
 
 git clone https://github.com/Prof-Fabio-Henrique/projeto-final-2022-2-g3-kd.git
+
 cd projeto-final-2022-2-g3-kd
+
 cd experiencein
+
 git branch
+
 git branch api
+
 git branch 
+
 *api
+
 main
+
 pip3 install django==2.2 
+
 pip3 install djangorestframework
+
 yarn start
 
 # Comandos para Ativar o Ambiente Virtual
 venv\Scripts\activate.bat
+
 source venv/bin/activate
 
 # Instalações 
 
 INSTALLED_APPS = [
+
     'rest_framework',
+
     'rest_framework.authtoken',
+
     'corsheaders',
 ]
 
 # Páginas
 /perfis/
+
 /profiles/
+
 /convites/convidar/
 
 # Botões
