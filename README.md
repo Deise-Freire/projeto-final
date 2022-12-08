@@ -191,6 +191,8 @@ Aceitar
 
 Logout
 
+Login
+
 
 # Parte 1 (back-end API)
 
