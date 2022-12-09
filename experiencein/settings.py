@@ -143,9 +143,9 @@ LOGOUT_URL='/logout/'
 LOGIN_REDIRECT_URL='/'
 LOGOUT_REDIRECT_URL=LOGIN_URL
 
-ALLOWED_HOSTS =['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
-CORS_ORIGIN_ALLOW_ALL = True
- CORS_ORIGIN_WHITELIST = (
-     'http://localhost:3000',
- )
+#CORS_ORIGIN_ALLOW_ALL = True
+#CORS_ORIGIN_WHITELIST = (
+#    'http://localhost:3000',
+#)
