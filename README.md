@@ -76,6 +76,8 @@ virtualenv==20.14.1
 
 zipp==3.8.0
 
+Python==3.7.9
+
 # Configurações
 
 INSTALLED_APPS = [
