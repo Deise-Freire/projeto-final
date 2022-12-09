@@ -41,6 +41,8 @@ git commit -m "initial comment"
 
 git push
 
+python -V
+
 # Comandos para Ativar o Ambiente Virtual
 venv\Scripts\activate.bat
 
