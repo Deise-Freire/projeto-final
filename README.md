@@ -1,9 +1,15 @@
-# projeto-final-2022-2-g3-kd
-projeto-final-2022-2-g3-kd created by GitHub Classroom
+# Fonte da ideia
+Professor Ph.D. Fábio Henrique Monteiro de Oliveira
+
+# Sobre o trabalho
+Projeto apresentado ao professor Ph.D. Fábio H. M. Oliveira como parte dos requisitos para aprovação na disciplina Programação para Internet II.
+
+# Sobre o projeto 
+Projeto guiado pelo professor Ph.D. Fábio H. M. de Oliveira de um protótipo de rede social. 
 
 # Comandos
 
-git clone https://github.com/Prof-Fabio-Henrique/projeto-final-2022-2-g3-kd.git
+git clone https://github.com/Prof-Fabio-Henrique/...git
 
 cd projeto-final-2022-2-g3-kd
 
@@ -41,6 +47,36 @@ venv\Scripts\activate.bat
 source venv/bin/activate
 
 # Instalações 
+
+distlib==0.3.4
+
+Django==2.2
+
+django-cors-headers==3.13.0
+
+django-rest-framework==0.1.0
+
+djangorestframework==3.13.1
+
+filelock==3.7.1
+
+importlib-metadata==4.11.4
+
+platformdirs==2.5.2
+
+pytz==2022.1
+
+six==1.16.0
+
+sqlparse==0.4.2
+
+typing-extensions==4.2.0
+
+virtualenv==20.14.1
+
+zipp==3.8.0
+
+# Configurações
 
 INSTALLED_APPS = [
 
