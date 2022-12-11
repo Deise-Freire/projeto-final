@@ -233,6 +233,15 @@ Logout
 
 Login
 
+## `Links`
+
+[virtualenv](https://pypi.python.org/pypi/virtualenv)
+
+[venv](https://www.python.org/dev/peps/pep-0405)
+
+[Estrutura REST do Django](https://www.django-rest-framework.org/)
+
+[Sintaxe Markdown](https://eadeje.tse.jus.br/pluginfile.php/140952/mod_resource/content/3/Como%20Formatar%20Seu%20Texto%20no%20Trello.pdf)
 
 # Parte 1 (back-end API)
 
