@@ -16,7 +16,7 @@ import axios from 'axios';
 
 const instance = axios.create({
   baseURL: process.env.NODE_ENV === 'development'
-  ? 'http://localhost:3333' : 'https://api.example.com'
+  ? 'http://localhost:3333' : 'https://api.producao.com'
 });
 
 export default instance;
