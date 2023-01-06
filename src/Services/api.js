@@ -2,7 +2,8 @@ import axios from 'axios';
 import { getToken } from './utils';
 
 export const api = axios.create({
-  baseURL: 'http://localhost:8000',
+  //baseURL: 'http://localhost:8000', 
+  baseURL: 'http://kalitadeise2.pythonanywhere.com/'
 });
 
 api.interceptors.request.use(function (config) {
