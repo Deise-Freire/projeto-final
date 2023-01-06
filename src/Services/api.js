@@ -3,7 +3,7 @@ import { getToken } from './utils';
 
 export const api = axios.create({
   //baseURL: 'http://localhost:8000', 
-  baseURL: 'http://kalitadeise2.pythonanywhere.com/'
+  baseURL: 'http://kalitadeise.vercel.app/'
 });
 
 api.interceptors.request.use(function (config) {
