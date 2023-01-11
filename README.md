@@ -41,6 +41,12 @@ experiencein-virtualenv\Scripts\activate.bat
 
 mkvirtualenv experiencein-virtualenv --python=/usr/bin/python3.10
 
+mkvirtualenv experiencein-virtualenv --python=/usr/bin/python3.7
+
+mkvirtualenv --python=/usr/bin/python3.7 experiencein-virtualenv
+
+python manage.py collectstatic
+
 yarn start
 
 git status -sb
