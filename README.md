@@ -2,7 +2,7 @@
 Professor Ph.D. Fábio Henrique Monteiro de Oliveira
 
 # Sobre o trabalho
-Projeto apresentado ao professor Ph.D. Fábio H. M. Oliveira como parte dos requisitos para aprovação na disciplina Programação para Internet II.
+Projeto para ser apresentado ao professor Ph.D. Fábio H. M. Oliveira como parte dos requisitos para aprovação na disciplina Programação para Internet II.
 
 # Sobre o projeto 
 Projeto guiado pelo professor Ph.D. Fábio H. M. de Oliveira de um protótipo de rede social. 
@@ -173,11 +173,11 @@ python manage.py shell
 
 >>> from perfis.models import Perfil
 
->>> perfil1 = Perfil(nome='Fábio Henrique', email='fabio.oliveira@ifb.edu.br', telefone='n/a', nome_empresa='IFB')
+>>> perfil1 = Perfil(nome='Fábio Henrique', email='teste1@ifb.edu.br', telefone='n/a', nome_empresa='IFB')
 
 >>> perfil1.save()
 
->>> perfil2 = Perfil(nome='Tiago Henrique', email='tiago.segato@ifb.edu.br', telefone='n/a', nome_empresa='IFB')
+>>> perfil2 = Perfil(nome='Tiago Henrique', email='teste2@ifb.edu.br', telefone='n/a', nome_empresa='IFB')
 
 >>> perfil2.save()
 
@@ -265,10 +265,3 @@ Login
 
 [Sintaxe Markdown](https://eadeje.tse.jus.br/pluginfile.php/140952/mod_resource/content/3/Como%20Formatar%20Seu%20Texto%20no%20Trello.pdf)
 
-# Parte 1 (back-end API)
-
-https://docs.google.com/document/d/1q2Q0z3VX69jPx4CuvBceaq2V84TvHyFD8K6-QFWCKIs/edit
-
-# Parte 2 (front-end)
-
-https://docs.google.com/document/d/173g-H_pYKYBQHZjItRzAdN4BZE7zrhwS_FFYib7Uazk/edit#heading=h.gb9358fehx93
