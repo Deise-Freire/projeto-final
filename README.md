@@ -47,6 +47,8 @@ mkvirtualenv --python=/usr/bin/python3.7 experiencein-virtualenv
 
 mkvirtualenv virtualenvs --python=/usr/bin/python3.10
 
+/home/kalitadeise2/experiencein-backend 
+
 python manage.py collectstatic
 
 yarn start
