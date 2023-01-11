@@ -29,6 +29,18 @@ pip3 install django==2.2
 
 pip3 install djangorestframework
 
+> pythonanywhere
+
+pip3 install django==2.2 django-rest-framework django-cors-headers
+
+source experiencein-virtualenv/bin/activate
+
+experiencein-virtualenv\Scripts\activate.bat
+
+/home/kalitadeise2/.virtualenvs/experiencein-virtualenv
+
+mkvirtualenv experiencein-virtualenv --python=/usr/bin/python3.10
+
 yarn start
 
 git status -sb
