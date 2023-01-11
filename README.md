@@ -45,6 +45,8 @@ mkvirtualenv experiencein-virtualenv --python=/usr/bin/python3.7
 
 mkvirtualenv --python=/usr/bin/python3.7 experiencein-virtualenv
 
+mkvirtualenv virtualenvs --python=/usr/bin/python3.10
+
 python manage.py collectstatic
 
 yarn start
